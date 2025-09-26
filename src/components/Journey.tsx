@@ -5,7 +5,7 @@ import { Calendar, MapPin, Award, BookOpen } from "lucide-react";
 const Journey = () => {
   const journeySteps = [
     {
-      year: "2024",
+      year: "2025",
       title: "Cloud Computing Enthusiast",
       company: "Colab Innovation Campus",
       location: "Kaduna, Nigeria",
@@ -20,10 +20,10 @@ const Journey = () => {
   ];
 
   const certifications = [
-    { name: "AWS Cloud Practitioner", year: "2024", icon: <Award className="h-4 w-4" /> },
-    { name: "Oracle Cloud Infrastructure AI Foundation Associate", year: "2024", icon: <Award className="h-4 w-4" /> },
-    { name: "OCI Foundation Associate", year: "2024", icon: <Award className="h-4 w-4" /> },
-    { name: "Google Cloud Associate Engineer (In Progress)", year: "2024", icon: <BookOpen className="h-4 w-4" /> }
+    { name: "AWS Cloud Practitioner", year: "2025", icon: <Award className="h-4 w-4" /> },
+    { name: "Oracle Cloud Infrastructure AI Foundation Associate", year: "2025", icon: <Award className="h-4 w-4" /> },
+    { name: "OCI Foundation Associate", year: "2025", icon: <Award className="h-4 w-4" /> },
+    { name: "Google Cloud Associate Engineer (In Progress)", year: "2025", icon: <BookOpen className="h-4 w-4" /> }
   ];
 
   return (
