@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ vars.DOCKERHUB_USERNAME }}/sal215 # Replace 'your-repo-name'
+          images: ${{ vars.DOCKERHUB_USERNAME }}/my-portfolio # Replace 'your-repo-name'
           tags: |
             type=ref,event=branch
             type=sha,prefix=,suffix=,format=short
